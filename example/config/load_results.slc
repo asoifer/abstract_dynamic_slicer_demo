@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<UserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <solutionFiles>
+    <solutionPath>..\example\src\example_project.sln</solutionPath>
+    <instrumentedSolutionPath>..\example\instrumented_src\example_project.sln</instrumentedSolutionPath>
+    <compilationOutputFolder />
+    <executableProject>example_project</executableProject>
+  </solutionFiles>
+  <criteria>
+    <mode>LoadResults</mode>
+  </criteria>
+  <results>
+    <executedLinesFile>..\example\results\example_project\executed_lines.lines</executedLinesFile>
+    <sliceDependenciesGraphFolder>..\example\results\example_project\slices_graph_folder</sliceDependenciesGraphFolder>
+    <dependencyGraphFile>..\example\results\example_project\dg.dg</dependencyGraphFile>
+  </results>
+  <customization>
+    
+  </customization>
+</UserConfiguration>

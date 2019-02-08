@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<UserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <solutionFiles>
+    <solutionPath>..\example\src\example_project.sln</solutionPath>
+    <instrumentedSolutionPath />
+    <compilationOutputFolder>..\example\instrumented_src</compilationOutputFolder>
+    <executableProject>example_project</executableProject>
+    <MSBuildCompilation>false</MSBuildCompilation>
+  </solutionFiles>
+  <criteria>
+    <lines>
+      <FileLine>
+        <file>..\example\src\example_project\Program.cs</file>
+        <line>28</line>
+      </FileLine>
+    </lines>
+    <mode>Normal</mode>
+    <fileTraceInputPath />
+    <runAutomatically>true</runAutomatically>
+    <notCompile>false</notCompile>
+    <fileTraceInput>true</fileTraceInput>
+  </criteria>
+  <results>
+    <name>example_project</name>
+    <outputFolder>..\example\results</outputFolder>
+    <executedLinesFile>executed_lines.lines</executedLinesFile>
+    <executedLinesFileForUser>executed_lines_user.lines</executedLinesFileForUser>
+    <resultFile>result.lines</resultFile>
+    <filteredResultFile>filtered_result.lines</filteredResultFile>
+    <sliceDependenciesGraphFolder>slices_graph_folder</sliceDependenciesGraphFolder>
+    <dependencyGraphFile>dg.dg</dependencyGraphFile>
+    <dependencyGraphDot>dg.dot</dependencyGraphDot>
+    <pointsToGraphDot>ptg.dot</pointsToGraphDot>
+    <printGraphForEachStatement>false</printGraphForEachStatement>
+    <summaryResultFile>summary.info</summaryResultFile>
+  </results>
+  <customization>
+    <summaries>..\data\summaries.xml</summaries>
+    <includeControlDependencies>true</includeControlDependencies>
+    <includeAllUses>false</includeAllUses>
+    <staticMode>true</staticMode>
+    <loopsOptimization>true</loopsOptimization>
+  </customization>
+</UserConfiguration>
